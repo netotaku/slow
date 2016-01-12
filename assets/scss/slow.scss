@@ -1,0 +1,51 @@
+@import "compass/reset";
+
+html{
+  text-align: center;
+  display: table;
+  height: 100%;
+  width: 100%;
+  font-size: 1em;
+  background: url(../img/abstract.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 15em;
+  font-family: 'Monsieur La Doulaise';
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: 2px 2px rgba(0,0,0,.6);
+  position: relative;
+  z-index: -1;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  span{
+    text-decoration: underline;
+  }
+  &:hover{
+    span{
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  h1{
+    font-size: 8em;
+  }
+}
