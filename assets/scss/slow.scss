@@ -6,8 +6,6 @@ html{
   height: 100%;
   width: 100%;
   font-size: 1em;
-  background: url(../img/abstract.jpg) no-repeat center;
-  background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,19 +16,16 @@ body{
   vertical-align: middle;
 }
 
-h1{
-  font-weight: normal;
-  font-size: 15em;
-  font-family: 'Monsieur La Doulaise';
-  color: #fff;
-  opacity: 0.9;
-  text-shadow: 2px 2px rgba(0,0,0,.6);
-  position: relative;
-  z-index: -1;
+.twitter{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8em;
+  color: #c00;
+  &:hover{
+    color: red;
+  }
 }
 
 a{
-  color: #fff;
   text-decoration: none;
   span{
     text-decoration: underline;
@@ -41,11 +36,11 @@ a{
     }
   }
 }
-
-
-
-@media only screen and (max-width: 500px) {
-  h1{
-    font-size: 8em;
-  }
-}
+//
+//
+//
+// @media only screen and (max-width: 500px) {
+//   h1{
+//     font-size: 8em;
+//   }
+// }

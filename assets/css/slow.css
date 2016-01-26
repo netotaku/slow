@@ -70,48 +70,37 @@ html {
   height: 100%;
   width: 100%;
   font-size: 1em;
-  background: url(../img/abstract.jpg) no-repeat center;
-  background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 15, ../scss/slow.scss */
+/* line 13, ../scss/slow.scss */
 body {
   display: table-cell;
   height: 100%;
   vertical-align: middle;
 }
 
-/* line 21, ../scss/slow.scss */
-h1 {
-  font-weight: normal;
-  font-size: 15em;
-  font-family: 'Monsieur La Doulaise';
-  color: #fff;
-  opacity: 0.9;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
-  position: relative;
-  z-index: -1;
+/* line 19, ../scss/slow.scss */
+.twitter {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8em;
+  color: #c00;
+}
+/* line 23, ../scss/slow.scss */
+.twitter:hover {
+  color: red;
 }
 
-/* line 32, ../scss/slow.scss */
+/* line 28, ../scss/slow.scss */
 a {
-  color: #fff;
   text-decoration: none;
 }
-/* line 35, ../scss/slow.scss */
+/* line 30, ../scss/slow.scss */
 a span {
   text-decoration: underline;
 }
-/* line 39, ../scss/slow.scss */
+/* line 34, ../scss/slow.scss */
 a:hover span {
   text-decoration: none;
-}
-
-@media only screen and (max-width: 500px) {
-  /* line 48, ../scss/slow.scss */
-  h1 {
-    font-size: 8em;
-  }
 }
